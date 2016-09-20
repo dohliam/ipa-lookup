@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Norsk uttale</title>
+    <link rel="stylesheet" type="text/css" href="https://dohliam.github.io/dropin-minimal-css/vendor/motherplate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/ipa.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/auto-complete.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/dataurl.css"/>
+    <script src="../data/nb.js" type="text/javascript"></script>
+    <script src="../js/ipa.js" type="text/javascript"></script>
+    <script src="../js/auto-complete.min.js" type="text/javascript"></script>
+    <script src="../js/pace.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      window.onload = function() { document.getElementById('input').focus(); }
+      lang = "nb";
+      var keys = [];
+      for(var k in ipa) keys.push(k);
+    </script>
+  </head>
+  <body>
+    <center>
+      <h1>norsk uttale</h1>
+      <form action="#" onsubmit="show_ipa()">
+        <input type="text" size="35" id="input" placeholder="Søk" value="" />
+        <input type="submit" class="btn" value="Slå opp!" />
+      </form>
+      <div id="output">&nbsp;</div>
+      <div id="player">&nbsp;</div>
+    <script>
+      suggest_entry();
+    </script>
+    </center>
+  </body>
+</html>
