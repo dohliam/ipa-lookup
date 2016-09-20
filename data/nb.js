@@ -2630,7 +2630,6 @@ ipa = {
   "fysiologisk":"fʏsɪʊˈloːgɪsk",
   "fysisk":"ˈfyːsɪsk",
   "fæl":"fæːl",
-  "færrest":"foː",
   "færøysk":"ˈfæːɾœjsk",
   "føde":"ˈføːdə",
   "fødested":"føːdəsteːd",
