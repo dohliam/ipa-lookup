@@ -15,16 +15,17 @@ function show_ipa() {
   input = document.getElementById("input").value;
   output = document.getElementById("output");
   get_ipa(input, lang);
-  play_audio(input);
-  demo1.destroy();
+  play_audio(input, lang);
   return false;
 }
 
-function play_audio(w) {
-  base_url = "https://raw.githubusercontent.com/open-dict-data/norsk-uttale/master/mp3/" + w + ".mp3";
-  player = document.getElementById("player");
-  player.innerHTML = "<audio id='reading' src='" + base_url + "'></audio>";
-  window.reading.play();
+function play_audio(w, l) {
+  base_url = audio_loc(w, l);
+  if (base_url) {
+    player = document.getElementById("player");
+    player.innerHTML = "<audio id='reading' src='" + base_url + "'></audio>";
+    window.reading.play();
+  }
 }
 
 function suggest_entry() {
@@ -40,4 +41,13 @@ function suggest_entry() {
       suggest(suggestions);
     }
   });
+}
+
+function audio_loc(w, l) {
+  url = { "nb":"https://raw.githubusercontent.com/open-dict-data/norsk-uttale/master/mp3/" + w + ".mp3" };
+  if (url[l]) {
+    return url[l];
+  } else {
+    return false;
+  }
 }
