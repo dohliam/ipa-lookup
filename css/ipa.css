@@ -1,10 +1,17 @@
+a {
+  text-decoration: none;
+}
 #output {
   font-style: italic;
 }
-#output a {
-  text-decoration: none;
-}
 h1 a {
   color: #000;
-  text-decoration: none;
+}
+h2 {
+  font-size: 24px;
+  color: gray;
+  line-height: 1;
+}
+#infolink {
+  line-height: 2.5;
 }
