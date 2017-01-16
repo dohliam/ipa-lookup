@@ -4,6 +4,8 @@ Finding pronunciations in [IPA](https://en.wikipedia.org/wiki/International_Phon
 
 The data comes from the [ipa-dict](https://github.com/open-dict-data/ipa-dict) project. If you would like to add a language that you don't see here, or make a correction, check out the [project page on GitHub](https://github.com/open-dict-data/ipa-dict)!
 
+![IPA Lookup screenshots](https://cloud.githubusercontent.com/assets/9295750/21977686/0aa0b7f2-db8c-11e6-88b8-cdec8305ef5e.gif)
+
 ## Languages
 
 * [Arabic](https://open-dict-data.github.io/ipa-lookup/ar)
