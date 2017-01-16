@@ -8,7 +8,7 @@ The data comes from the [ipa-dict](https://github.com/open-dict-data/ipa-dict) p
 
 * [Arabic](https://open-dict-data.github.io/ipa-lookup/ar)
 * [Cantonese](https://open-dict-data.github.io/ipa-lookup/yue)
-* [English](https://open-dict-data.github.io/ipa-lookup/fi) (US)
+* [English](https://open-dict-data.github.io/ipa-lookup/en) (US)
 * [Esperanto](https://open-dict-data.github.io/ipa-lookup/eo)
 * [Finnish](https://open-dict-data.github.io/ipa-lookup/fi)
 * [French](https://open-dict-data.github.io/ipa-lookup/fr)
